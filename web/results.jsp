@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>User Information</title>
+        <link rel="stylesheet" type="text/css" href="CalculationStyle.css"/>
     </head>
     
     <%
@@ -139,10 +140,6 @@ NetPay=PosttaxPay-PosttaxDeduct;
                     <td><%= NetPay%></td>
                 </tr>
             </tbody>
-        </table>
-                
-
-         
-               
+        </table>   
     </body>
 </html>
